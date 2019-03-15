@@ -1,0 +1,16 @@
+GitHub创建本地仓库：
+	1.创建时GitHub仓库勾选创建字数文件
+	2.复制仓库连接
+	3.项目目录下 Git Bash Here 
+	4.执行命令 git clone + 仓库地址
+
+
+
+
+ GitHub上传仓库步骤：
+	1.将代码保存到本地仓库文件
+	2.仓库文件下 Git Bash Here
+	3.执行命令 git status  让git获取文件的更改（每次修改代码都要重新操作）
+	4.执行命令 git add --all  所有文件都添加到仓库，如果单个文件 all改成文件名
+	5.执行命令 git commit -m “注释语句”提交文件
+	6.执行命令 git push  上传完成
